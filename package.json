@@ -1,0 +1,13 @@
+{
+  "name": "com.company.appname",
+  "version": "1.0.0",
+  "displayName": "App Name Here",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~5.0.0"
+  }
+}

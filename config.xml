@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.company.appname" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>App Triggered</name>
+    <description>
+        Trigger that Ureaqa Thing!
+    </description>
+    <author email="json@ureaqa.com" href="http://ureaqa.com">
+        J-man that coder dude
+    </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="cordova-custom-config-autorestore" value="false" />
+    <icon src="icon.png" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="FadeSplashScreenDuration" value="2000" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="SuppressesLongPressGesture" value="true" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <platform name="ios">
+        <preference name="BackupWebStorage" value="none" />
+        <preference name="KeyboardDisplayRequiresUserAction" value="false" />
+        <preference name="SuppressesIncrementalRendering" value="true" />
+        <icon gap:platform="ios" height="57" src="www/res/icon/ios/Icon.png" width="57" />
+        <icon gap:platform="ios" height="114" src="www/res/icon/ios/Icon@2x.png" width="114" />
+        <icon gap:platform="ios" height="60" src="www/res/icon/ios/Icon-60.png" width="60" />
+        <icon gap:platform="ios" height="120" src="www/res/icon/ios/Icon-60@2x.png" width="120" />
+        <icon gap:platform="ios" height="180" src="www/res/icon/ios/Icon-60@3x.png" width="180" />
+        <icon gap:platform="ios" height="72" src="www/res/icon/ios/Icon-72.png" width="72" />
+        <icon gap:platform="ios" height="144" src="www/res/icon/ios/Icon-72@2x.png" width="144" />
+        <icon gap:platform="ios" height="76" src="www/res/icon/ios/Icon-76.png" width="76" />
+        <icon gap:platform="ios" height="152" src="www/res/icon/ios/Icon-76@2x.png" width="152" />
+        <icon gap:platform="ios" height="29" src="www/res/icon/ios/Icon-Small.png" width="29" />
+        <icon gap:platform="ios" height="58" src="www/res/icon/ios/Icon-Small@2x.png" width="58" />
+        <icon gap:platform="ios" height="87" src="www/res/icon/ios/Icon-Small@3x.png" width="87" />
+        <icon gap:platform="ios" height="40" src="www/res/icon/ios/Icon-Small-40.png" width="40" />
+        <icon gap:platform="ios" height="80" src="www/res/icon/ios/Icon-Small-40@2x.png" width="80" />
+        <icon gap:platform="ios" height="120" src="www/res/icon/ios/Icon-Small-40@3x.png" width="120" />
+        <icon gap:platform="ios" height="50" src="www/res/icon/ios/Icon-Small-50.png" width="50" />
+        <icon gap:platform="ios" height="40" src="www/res/icon/ios/Icon-Small-50@2x.png" width="40" />
+        <icon gap:platform="ios" height="1024" src="www/res/icon/ios/iTunesArtwork@2x.png" width="1024" />
+        <splash height="480" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+        <splash height="960" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+        <splash height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
+        <splash height="2048" src="www/res/screen/ios/screen-ipad-portrait-2x.png" width="1536" />
+        <splash height="1136" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+        <splash height="1334" src="www/res/screen/ios/screen-iphone6-portrait-2x.png" width="750" />
+        <splash height="2208" src="www/res/screen/ios/screen-iphone6-portrait-3x.png" width="1242" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon gap:platform="android" gap:qualifier="ldpi" height="36" src="www/res/icon/android/36.png" width="36" />
+        <icon gap:platform="android" gap:qualifier="mdpi" height="48" src="www/res/icon/android/48.png" width="48" />
+        <icon gap:platform="android" gap:qualifier="hdpi" height="72" src="www/res/icon/android/72.png" width="72" />
+        <icon gap:platform="android" gap:qualifier="xhdpi" height="96" src="www/res/icon/android/96.png" width="96" />
+        <icon gap:platform="android" gap:qualifier="xxhdpi" height="144" src="www/res/icon/android/144.png" width="144" />
+        <icon gap:platform="android" gap:qualifier="xxxhdpi" height="192" src="www/res/icon/android/192.png" width="192" />
+        <icon gap:platform="android" gap:qualifier="nodpi" height="512" src="www/res/icon/android/512.png" width="512" />
+        <splash density="land-hdpi" src="www/res/screen/android/screen-hdpi-landscape.png" />
+        <splash density="land-ldpi" src="www/res/screen/android/screen-ldpi-landscape.png" />
+        <splash density="land-mdpi" src="www/res/screen/android/screen-mdpi-landscape.png" />
+        <splash density="land-xhdpi" src="www/res/screen/android/screen-xhdpi-landscape.png" />
+        <splash density="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+        <splash density="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+        <splash density="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+        <config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.CAMERA" />
+            <uses-permission android:name="android.permission.VIBRATE" />
+            <uses-permission android:name="android.permission.BLUETOOTH" android:required="true" />
+            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:required="true" />
+            <uses-feature android:name="android.hardware.BLUETOOTH" android:required="true" />
+        </config-file>
+        <preference name="android-manifest/application/@android:hardwareAccelerated" value="false" />
+        <preference name="android-manifest/@android:hardwareAccelerated" value="false" />
+        <preference name="android-minSdkVersion" value="19" />
+        <preference name="android-targetSdkVersion" value="23" />
+    </platform>
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <engine name="android" spec="~5.0.0" />
+</widget>
